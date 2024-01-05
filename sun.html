@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Earth</title>
+    
+    <style>
+   body
+    {
+       background-image: url('https://wallpapercave.com/wp/wp4865484.jpg');
+       background-size: cover;
+    }
+    img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+        
+    
+    .container {
+      width: 80%;
+      margin: 50px auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      text-align: center;
+      color: antiquewhite;
+    }
+    p {
+      line-height: 1.6;
+      color: white;
+      text-align: left;
+    }
+    ul{
+        line-height: 1.6;
+      color: white;
+      
+      
+
+    }
+    ul li {
+    line-height: 1.6;
+    text-align: left;
+}
+h1{
+  color: white;
+  padding: 20;
+}
+div{
+  color: white;
+
+}
+
+footer{
+  margin-top: 100px;
+}
+    </style>
+    
+    
+</head>
+<body>
+  
+  <h1><strong>Sun</strong></h1>
+    <img width="200"heigth="200" src="sun_1.webp">
+
+    
+    <ul class="container">
+
+        <p>The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, primarily composed of hydrogen and helium. Here are some key facts:</p>
+      
+        
+          <li>Diameter: About 1.39 million kilometers (109 times the diameter of Earth)</li>
+          <li>Mass: Approximately 1.989 × 10^30 kilograms (about 333,000 times the mass of Earth)</li>
+          <li>Surface Temperature: Around 5,500 degrees Celsius (9,932 degrees Fahrenheit)</li>
+          <li>Age: Roughly 4.6 billion years</li>
+          <li>Distance from Earth: Approximately 149.6 million kilometers (1 Astronomical Unit)</li>
+       
+      
+        <p>The Sun plays a vital role in supporting life on Earth, providing light and heat necessary for various biological processes.</p>
+      
+    </ul>
+    <h1>QUIZ</h1>
+    <div id="question">True or false:he distance from Earth to the Sun is approximately 149.6 million kilometers, which is equivalent to 1 Astronomical Unit (AU).</div>
+    <button onclick="truee()">True</button>
+    <button onclick="falsee()">False</button>
+    <script>
+      function truee(){
+        document.getElementById('question').innerHTML="Congrats! you got the correct answer";
+        document.getElementById('question').style.color="green";
+      }
+      function falsee(){
+        document.getElementById('question').innerHTML="Oops! you got the answer wrong";
+        document.getElementById('question').style.color="red";
+      }
+      
+    </script>
+    </body>
+    <footer>
+    
+    </footer>
+  
+</html>

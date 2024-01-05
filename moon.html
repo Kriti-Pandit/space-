@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Earth</title>
+    
+    <style>
+   body
+    {
+       background-image: url('https://wallpapercave.com/wp/wp4865484.jpg');
+       background-size: cover;
+    }
+    img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+        
+    
+    .container {
+      width: 80%;
+      margin: 50px auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      text-align: center;
+      color: antiquewhite;
+    }
+    p {
+      line-height: 1.6;
+      color: white;
+      text-align: left;
+    }
+    ul{
+        line-height: 1.6;
+      color: white;
+      
+      
+
+    }
+    ul li {
+    line-height: 1.6;
+    text-align: left;
+}
+h1{
+  color: white;
+  padding: 20;
+}
+div{
+  color: white;
+
+}
+
+footer{
+  margin-top: 100px;
+}
+    </style>
+    
+    
+</head>
+<body>
+  
+  <h1><strong>Moon</strong></h1>
+    <img width="200"heigth="200" src="moon.png">
+    <ul class="container">
+          <p>The Moon is Earth's natural satellite and is the fifth largest moon in the Solar System. It has fascinated humans for centuries and plays a significant role in Earth's tides and certain cultural beliefs.</p>
+          <p>Here are some key facts about Mercury:</p>
+            <li><strong>Diameter:</strong> Approximately 3,474 kilometers</li>
+            <li><strong>Surface:</strong> Covered with dust, rocks, and craters</li>
+            <li><strong>Gravity:</strong> About 1/6th of Earth's gravity</li>
+            <li><strong>Phases:</strong> The Moon goes through different phases as seen from Earth, such as full moon, new moon, crescent, etc.</li>
+            <p>The Moon takes about 27.3 days to orbit Earth and rotates on its axis in about the same period, causing the same side to always face Earth.</p>
+            <p>It lacks a significant atmosphere and has extreme temperature variations between its day and night sides.</p>
+            <p>Several missions have been conducted to explore the Moon, including manned missions during the Apollo program.</p>
+      
+      
+      </ul>
+      <h1>QUIZ</h1>
+<div id="question">True or false:The Moon is Earth's natural satellite and is the fifth largest moon in the Solar System.</div>
+<button onclick="truee()">True</button>
+<button onclick="falsee()">False</button>
+<script>
+  function truee(){
+    document.getElementById('question').innerHTML="Congrats! you got the correct answer";
+    document.getElementById('question').style.color="green";
+  }
+  function falsee(){
+    document.getElementById('question').innerHTML="Oops! you got the answer wrong";
+    document.getElementById('question').style.color="red";
+  }
+  
+</script>
+</body>
+<footer>
+
+</footer>
+
+    
+
+
+</html>

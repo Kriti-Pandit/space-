@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Earth</title>
+    
+    <style>
+   body
+    {
+       background-image: url('https://wallpapercave.com/wp/wp4865484.jpg');
+       background-size: cover;
+    }
+    img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+        
+    
+    .container {
+      width: 80%;
+      margin: 50px auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      text-align: center;
+      color: antiquewhite;
+    }
+    p {
+      line-height: 1.6;
+      color: white;
+      text-align: left;
+    }
+    ul{
+        line-height: 1.6;
+      color: white;
+      
+      
+
+    }
+    ul li {
+    line-height: 1.6;
+    text-align: left;
+}
+h1{
+  color: white;
+  padding: 20;
+}
+div{
+  color: white;
+
+}
+
+footer{
+  margin-top: 100px;
+}
+    </style>
+    
+    
+</head>
+<body>
+  
+  <h1><strong>Saturn</strong></h1>
+    <img width="200"heigth="200" src="saturn.png">
+    <ul class="container">
+    
+   
+      <p>Saturn is the sixth planet from the Sun and the second-largest planet in the Solar System after Jupiter. It is known for its iconic rings made up of ice, dust, and rock particles.</p>
+    
+        <li><strong>Diameter:</strong> Approximately 116,460 kilometers</li>
+        <li><strong>Rings:</strong> Saturn's rings are composed of countless small particles, ranging in size from micrometers to meters</li>
+        <li><strong>Composition:</strong> Made primarily of hydrogen and helium with traces of other elements</li>
+        <li><strong>Moons:</strong> Saturn has over 80 known moons, including Titan, which is larger than Mercury and has a thick atmosphere.</li>
+        <p>Saturn is less dense than water, meaning if there was a bathtub large enough, it would float!</p>
+        <p>Its rings are relatively young compared to the planet, likely formed relatively recently in cosmic terms.</p>
+        <p>Cassini, a spacecraft launched by NASA, studied Saturn and its moons extensively and provided remarkable insights into the planet's atmosphere, rings, and moons.</p>
+      </ul>
+      <h1>QUIZ</h1>
+      <div id="question">True or false: Saturn is denser than water and would sink if placed in a bathtub</div>
+      <button onclick="truee()">True</button>
+      <button onclick="falsee()">False</button>
+      <script>
+        function falsee(){
+          document.getElementById('question').innerHTML="Congrats! you got the correct answer";
+          document.getElementById('question').style.color="green";
+        }
+        function truee(){
+          document.getElementById('question').innerHTML="Oops! you got the answer wrong";
+          document.getElementById('question').style.color="red";
+        }
+        
+      </script>
+      </body>
+      <footer>
+      
+      </footer>
+      
+    </html>

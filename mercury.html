@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Earth</title>
+    
+    <style>
+   body
+    {
+       background-image: url('https://wallpapercave.com/wp/wp4865484.jpg');
+       background-size: cover;
+    }
+    img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+        
+    
+    .container {
+      width: 80%;
+      margin: 50px auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      text-align: center;
+      color: antiquewhite;
+    }
+    p {
+      line-height: 1.6;
+      color: white;
+      text-align: left;
+    }
+    ul{
+        line-height: 1.6;
+      color: white;
+      
+      
+
+    }
+    ul li {
+    line-height: 1.6;
+    text-align: left;
+    
+}
+h1{
+  color: white;
+  padding: 20;
+}
+div{
+  color: white;
+
+}
+
+footer{
+  margin-top: 100px;
+}
+
+  
+    </style>
+    
+    
+</head>
+<body>
+ 
+  <h1><strong>Mercury</strong></h1>
+    <img width="200"heigth="200" src="Mercury.png">
+
+    <ul class="container">
+    <p>Mercury is the smallest and innermost planet in the Solar System.</p> 
+    <p>Here are some key facts about Mercury:</p>
+  
+    <li><strong>Diameter:</strong> 4,880 kilometers (3,032 miles)</li>
+    <li><strong>Orbit:</strong> Mercury orbits the Sun at an average distance of about 57.9 million kilometers (36 million miles)</li>
+    <li><strong>Surface:</strong> Mercury's surface is heavily cratered and is similar in appearance to the Moon's surface</li>
+    <li><strong>Temperature:</strong> Extreme temperature variations: from about -173°C (-280°F) at night to 427°C (800°F) during the day due to its thin atmosphere</li>
+    <li><strong>Rotation:</strong> Mercury has a slow rotation, taking about 59 Earth days to complete one rotation and about 88 Earth days to complete one orbit around the Sun</li>
+    <li><strong>Composition:</strong> Its composition includes a large iron core, making up about 60% of its mass</li>
+  
+
+  <p>Despite its small size and proximity to the Sun, Mercury is an intriguing planet with unique characteristics.</p>
+  
+</ul>
+<h1>QUIZ</h1>
+<div id="question">True or false:Mercury orbits the Sun at an average distance of approximately 57.9 million miles (93 million kilometers).</div>
+<button onclick="truee()">True</button>
+<button onclick="falsee()">False</button>
+<script>
+  function truee(){
+    document.getElementById('question').innerHTML="Congrats! you got the correct answer";
+    document.getElementById('question').style.color="green";
+  }
+  function falsee(){
+    document.getElementById('question').innerHTML="Oops! you got the answer wrong";
+    document.getElementById('question').style.color="red";
+  }
+  
+</script>
+<footer>
+
+</footer>
+</body>
+
+</html>

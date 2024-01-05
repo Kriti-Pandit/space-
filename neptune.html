@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Earth</title>
+    
+    <style>
+   body
+    {
+       background-image: url('https://wallpapercave.com/wp/wp4865484.jpg');
+       background-size: cover;
+    }
+    img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+        
+    
+    .container {
+      width: 80%;
+      margin: 50px auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      text-align: center;
+      color: antiquewhite;
+    }
+    p {
+      line-height: 1.6;
+      color: white;
+      text-align: left;
+    }
+    ul{
+        line-height: 1.6;
+      color: white;
+      
+      
+
+    }
+    ul li {
+    line-height: 1.6;
+    text-align: left;
+}
+h1{
+  color: white;
+  padding: 20;
+}
+div{
+  color: white;
+
+}
+
+footer{
+  margin-top: 100px;
+}
+    </style>
+    
+    
+</head>
+<body>
+  
+  <h1><strong>Neptune</strong></h1>
+    <img width="200"heigth="200" src="neptune.png">
+    <ul class="container">
+    
+            <p>Neptune is the eighth and farthest known planet from the Sun in the Solar System. It is an ice giant with a blue hue due to the presence of methane in its atmosphere.</p>
+          
+              <li><strong>Diameter:</strong> Approximately 49,244 kilometers</li>
+              <li><strong>Composition:</strong> Composed mainly of hydrogen, helium, and methane</li>
+              <li><strong>Atmosphere:</strong> Contains high-speed winds and storm systems, including the Great Dark Spot similar to Jupiter's Great Red Spot</li>
+              <li><strong>Moons:</strong> Neptune has 14 known moons, the largest of which is Triton, a unique moon with a retrograde orbit.</li>
+          
+              <p>Neptune has the strongest winds in the Solar System, with wind speeds reaching up to 2,100 kilometers per hour (1,300 mph).</p>
+              <p>Triton, Neptune's largest moon, is one of the coldest objects in the Solar System and is thought to be captured from the Kuiper Belt.</p>
+              <p>Voyager 2 is the only spacecraft to have visited Neptune, providing valuable data and images during its flyby in 1989.</p>
+            </ul>
+          
+        
+            <h1>QUIZ</h1>
+            <div id="question">True or false:Neptune's atmosphere contains high-speed winds and storm systems, including a feature known as the Great Dark Spot, similar to Jupiter's Great Red Spot.</div>
+            <button onclick="truee()">True</button>
+            <button onclick="falsee()">False</button>
+            <script>
+              function truee(){
+                document.getElementById('question').innerHTML="Congrats! you got the correct answer";
+                document.getElementById('question').style.color="green";
+              }
+              function falsee(){
+                document.getElementById('question').innerHTML="Oops! you got the answer wrong";
+                document.getElementById('question').style.color="red";
+              }
+              
+            </script>
+            </body>
+            <footer>
+            
+            </footer>
+            
+    </html>

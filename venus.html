@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Earth</title>
+    
+    <style>
+   body
+    {
+       background-image: url('https://wallpapercave.com/wp/wp4865484.jpg');
+       background-size: cover;
+    }
+    img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+        
+    
+    .container {
+      width: 80%;
+      margin: 50px auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      text-align: center;
+      color: antiquewhite;
+    }
+    p {
+      line-height: 1.6;
+      color: white;
+      text-align: left;
+    }
+    ul{
+        line-height: 1.6;
+      color: white;
+      
+      
+
+    }
+    ul li {
+    line-height: 1.6;
+    text-align: left;
+}
+h1{
+  color: white;
+  padding: 20;
+}
+div{
+  color: white;
+
+}
+
+footer{
+  margin-top: 100px;
+}
+    </style>
+    
+    
+</head>
+
+  <h1><strong>Venus</strong></h1>
+    <img width="200"heigth="200" src="Venus-PNG-Background.png">
+
+    
+    <div class="container">
+        <p>Venus is the second planet from the Sun and is often called Earth's "sister planet" due to its similar size and composition.</p>
+        <p>Here are some key facts about Venus:</p>
+        <ul class="info-list">
+            <li><strong>Size:</strong> Venus has a diameter of about 12,104 kilometers (7,521 miles).</li>
+            <li><strong>Atmosphere:</strong> Its atmosphere mainly consists of carbon dioxide with clouds of sulfuric acid, leading to extreme greenhouse effects.</li>
+            <li><strong>Surface:</strong> Venus has a rocky surface with volcanoes, mountains, and vast plains.</li>
+            <li><strong>Rotation and Orbit:</strong> Venus rotates very slowly, taking about 243 Earth days to complete one rotation. Its orbit around the Sun takes around 225 Earth days.</li>
+            <li><strong>Temperature:</strong> It has an average surface temperature of about 462 degrees Celsius (864 degrees Fahrenheit), making it the hottest planet in our solar system.</li>
+            <li><strong>Exploration:</strong> Various space missions like NASA's Magellan spacecraft and the Soviet Union's Venera missions have studied Venus' surface and atmosphere.</li>
+        </ul>
+        <p>Venus is known for its extreme conditions, making it inhospitable for life as we know it.</p>
+    </div>
+
+    <h1>QUIZ</h1>
+    <div id="question">True or false: Venus has a diameter of about 12,104 kilometers (7,521 miles).</div>
+    <button onclick="truee()">True</button>
+    <button onclick="falsee()">False</button>
+    <script>
+      function truee(){
+        document.getElementById('question').innerHTML="Congrats! you got the correct answer";
+        document.getElementById('question').style.color="green";
+      }
+      function falsee(){
+        document.getElementById('question').innerHTML="Oops! you got the answer wrong";
+        document.getElementById('question').style.color="red";
+      }
+      
+    </script>
+    </body>
+    <footer>
+    
+    </footer>
+    
+</html>
